@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(135deg, #050b18 0%, #08111f 45%, #0a1424 100%);
+
+  color: white;
+  min-height: 100vh;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.text-body-secondary {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.border-bottom,
+.border-top {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #ff0088;
+}
+
+.fs-4 {
+  color: white;
+}
+
+.btn-primary {
+  background-color: #ff0088;
+  border-color: #ff0088;
+}
+
+.btn-primary:hover {
+  background-color: #d60073;
+  border-color: #d60073;
+}
+
+.btn-outline-secondary {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-outline-secondary:hover {
+  background-color: white;
+  color: black;
+}
+
+.text-primary {
+  color: #ff0088 !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.35) !important;
+}
+
+.rounded-4 {
+  overflow: hidden;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #ff0088;
+  color: white;
+}
+.nav-pills .nav-link {
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+.bi {
+  transition: all 0.25s ease;
+}
+
+.bi:hover {
+  color: #ff0088;
+  transform: scale(1.15);
+}
+a:focus,
+.btn:focus {
+  outline: 3px solid #ff0088;
+  outline-offset: 4px;
+}
