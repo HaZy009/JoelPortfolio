@@ -83,3 +83,10 @@ a:focus,
   outline: 3px solid #ff0088;
   outline-offset: 4px;
 }
+.hero-image {
+  width: 100%;
+
+  object-fit: contain;
+
+  border-radius: 16px;
+}
